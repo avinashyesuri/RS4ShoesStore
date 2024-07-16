@@ -1,15 +1,16 @@
 # RS4reactRecepie
 
-Recipe Finder Application
+Shoe website Application
 Overview
-This project is a Recipe Finder application built using React. It fetches recipe data from a fake recipe API and provides a dynamic search option for users to find recipes based on their preferences.
+This project is a Recipe Finder application built using React. It features a landing page with navigation links to various sections: Home, Contact, About, Menu, and Login. Each section is implemented as a separate component, and navigation is managed using React Router DOM.
 
 Features
-Dynamic Search: A search bar to dynamically filter and display recipes based on user input.
-API Integration: Fetches data from a fake recipe API to display a variety of recipes.
+Dynamic Navigation: Navigation links to Home, Contact, About, Menu, and Login sections.
 Responsive Design: The application is designed to be responsive, ensuring it works well on various devices, including desktops, tablets, and mobile devices.
-Recipe Details: Displays detailed information about each recipe, including ingredients, preparation steps, and images.
+API Integration (Planned): Fetches data from a fake recipe API to display a variety of recipes.
+Recipe Details (Planned): Displays detailed information about each recipe, including ingredients, preparation steps, and images.
 Technologies Used
 React: The core library for building the user interface.
+React Router DOM: For handling routing and navigation between different sections of the application.
 CSS: For styling the application and ensuring a visually appealing interface.
-Axios or Fetch API: For making HTTP requests to the fake recipe API.
+Axios or Fetch API (Planned): For making HTTP requests to the fake recipe API.
