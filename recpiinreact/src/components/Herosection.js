@@ -1,27 +1,3 @@
-// import React from 'react'
-
-// const Herosection = () => {
-//   return (
-//     <>
-//         <div>
-//             <h1>YOUR FEET DESERVE THE BEST</h1>
-//             <h3>We are here to help you out in a best way to fit the righteous shoes that deserve your feet. The best and Best of the Quality</h3>
-//             <div>
-//                 <button>Shop Now</button>
-//                 <button>Category </button>
-//             </div>
-
-//         </div>
-//         <div>
-//             <img src='https://thumbs.dreamstime.com/b/varna-bulgaria-april-red-puma-sport-shoes-yellow-background-major-german-multinational-company-product-shot-233501007.jpg' alt ="shoe"  />
-//         </div>
-
-//     </>
-//   )
-// }
-
-// export default Herosection
-
 import React from 'react';
 import f4 from '../imgs/puma.png'
 const Herosection = () => {

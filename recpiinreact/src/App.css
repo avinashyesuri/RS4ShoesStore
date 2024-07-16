@@ -21,9 +21,15 @@ nav ul {
   display: flex;
   list-style-type: none;
   gap: 24px;
+  text-decoration:none;
 }
 nav ul li {
   cursor :pointer;
+}
+  nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Ensure link text inherits the color from its parent */
+
 }
 nav button{
   height: 34px;
