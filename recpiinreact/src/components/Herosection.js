@@ -1,54 +1,57 @@
-    // import React from 'react'
+// import React from 'react'
 
-    // const Herosection = () => {
-    //   return (
-    //     <>
-    //         <div>
-    //             <h1>YOUR FEET DESERVE THE BEST</h1>
-    //             <h3>We are here to help you out in a best way to fit the righteous shoes that deserve your feet. The best and Best of the Quality</h3>
-    //             <div>
-    //                 <button>Shop Now</button>
-    //                 <button>Category </button>
-    //             </div>
-        
-    //         </div>
-    //         <div>
-    //             <img src='https://thumbs.dreamstime.com/b/varna-bulgaria-april-red-puma-sport-shoes-yellow-background-major-german-multinational-company-product-shot-233501007.jpg' alt ="shoe"  />
-    //         </div>
+// const Herosection = () => {
+//   return (
+//     <>
+//         <div>
+//             <h1>YOUR FEET DESERVE THE BEST</h1>
+//             <h3>We are here to help you out in a best way to fit the righteous shoes that deserve your feet. The best and Best of the Quality</h3>
+//             <div>
+//                 <button>Shop Now</button>
+//                 <button>Category </button>
+//             </div>
 
-    //     </>
-    //   )
-    // }
+//         </div>
+//         <div>
+//             <img src='https://thumbs.dreamstime.com/b/varna-bulgaria-april-red-puma-sport-shoes-yellow-background-major-german-multinational-company-product-shot-233501007.jpg' alt ="shoe"  />
+//         </div>
 
-    // export default Herosection
+//     </>
+//   )
+// }
 
-    import React from 'react';
+// export default Herosection
 
-    const Herosection = () => {
+import React from 'react';
+import f4 from '../imgs/puma.png'
+const Herosection = () => {
     const containerStyle = {
         display: 'flex',
-        flexDirection:'row',
-        justifyContent: 'space-evenly',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
         alignItems: 'center',
-        padding: '20px',
-        maxWidth:'1280px',
-        margin:'50px'
+   
+           margin:'85px'
+        // alignSelf
+        // padding: '20px',
+        // maxWidth: '1280px',
+        // margin: '50px'
     };
 
-    const textContainerStyle = {
-        maxWidth: '50%',
-    };
+    // const textContainerStyle = {
+    //     maxWidth: '50%',
+    // };
 
     const headingStyle = {
         fontSize: '4.5em',
         margin: '0 0 10px 0',
-        letterSpacing:'5px',
-        fontWeight:500
+        letterSpacing: '5px',
+        fontWeight: 500
     };
-    const innerheadingStyle={
+    const innerheadingStyle = {
         fontSize: '7.5em',
         margin: '0 0 10px 0',
-        fontWeight:'bold'
+        fontWeight: 'bold'
     }
     const subheadingStyle = {
         fontSize: '1.2em',
@@ -64,50 +67,55 @@
         padding: '10px 20px',
         fontSize: '1em',
         cursor: 'pointer',
-        background:'red',
-         borderRadius:'15px',
-         color:'white'
+        background: '#d01c28',
+        borderRadius: '15px',
+        color: 'white'
     };
 
     const buttonStyleC = {
         padding: '10px 20px',
         fontSize: '1em',
         cursor: 'pointer',
-        background:'grey',
-        borderRadius:'15px',
-        color:'white'
+        background: 'grey',
+        borderRadius: '15px',
+        color: 'white'
     };
     const imageStyle = {
-        maxWidth: '50%',
+       width:'75%',
         borderRadius: '10px',
-        height:'500px',
-        width:'95%'
+        marginLeft: '225PX',
+        height: '400px'
     };
 
     return (
         <>
-        <div style={containerStyle}>
-            <div style={textContainerStyle}>
-            <h1 style={headingStyle}>YOUR FEET </h1> 
-            <span style={innerheadingStyle}>DESERVE</span>  <h1 style={headingStyle}>THE BEST </h1> 
-            <h3 style={subheadingStyle}>
-                We are here to help you out in the best way to fit the righteous shoes that deserve your feet. The best and Best of the Quality
-            </h3>
-            <div style={buttonContainerStyle}>
-                <button style={buttonStyleS}>Shop Now</button>
-                <button style={buttonStyleC}>Category</button>
+            <div style={containerStyle}>
+                <div >
+                    <h1 style={headingStyle}>YOUR FEET </h1>
+                    <span style={innerheadingStyle}>DESERVE</span>  <h1 style={headingStyle}>THE BEST </h1>
+                    <h3 style={subheadingStyle}>
+                        We are here to help you out in the best way to fit the righteous shoes that deserve your feet. The best and Best of the Quality
+                    </h3>
+                    <div style={buttonContainerStyle}>
+                        <button style={buttonStyleS}>Shop Now</button>
+                        <button style={buttonStyleC}>Category</button>
+                    </div>
+                </div>
+                <div>
+                    <img
+                        style={imageStyle}
+                        src={f4}
+                        alt='shoe'
+                    />
+
+
+
+
+
+                </div>
             </div>
-            </div>
-            <div>
-            <img
-                style={imageStyle}
-                src='https://thumbs.dreamstime.com/b/varna-bulgaria-april-red-puma-sport-shoes-yellow-background-major-german-multinational-company-product-shot-233501007.jpg'
-                alt='shoe'
-            />
-            </div>
-        </div>
         </>
     );
-    }
+}
 
-    export default Herosection;
+export default Herosection;
