@@ -90,7 +90,7 @@ const Contact = ({ icon, text }) => {     // here i can write as (icon,text) = p
                         </form>
                     </div>
 <div>
-    {name + " " + textarea}
+    <h1>{name + " " + textarea}</h1>
 </div>
                 </div>
             </div>
