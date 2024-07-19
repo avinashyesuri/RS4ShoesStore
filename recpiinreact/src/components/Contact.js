@@ -91,6 +91,7 @@ const Contact = ({ icon, text }) => {     // here i can write as (icon,text) = p
                     </div>
 <div>
     <h1>{name + " " + textarea}</h1>
+    <img style={{height:"310px",width:"260px"}} src='https://img.freepik.com/premium-vector/business-woman-customer-service_49499-335.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712188800&semt=ais'/>
 </div>
                 </div>
             </div>
