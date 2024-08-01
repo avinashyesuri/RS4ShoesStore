@@ -1,4 +1,4 @@
-# RS4reactRecepie
+# RS4shoestore app
 
 Shoe website Application
 Overview
