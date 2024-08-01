@@ -59,7 +59,7 @@ const Herosection = () => {
     const imageStyle = {
        width:'75%',
         borderRadius: '10px',
-        marginLeft: '225PX',
+        marginLeft: '125PX',
         height: '400px'
     };
 
@@ -83,11 +83,6 @@ const Herosection = () => {
                         src={f4}
                         alt='shoe'
                     />
-
-
-
-
-
                 </div>
             </div>
         </>

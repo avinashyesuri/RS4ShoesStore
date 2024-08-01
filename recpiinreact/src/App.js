@@ -8,6 +8,7 @@ import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { IoMail } from "react-icons/io5";
+import Cart from './components/Cart';
 
 
 
@@ -27,7 +28,7 @@ function App() {
           <Route exact path="/location"  element={<Location/>} />
           <Route exact path="/about"  element={<About/>} />
           <Route exact path="/contact" element={<Contact text="VIA EMAIL" icon={<IoMail />}/>} />
-          
+          <Route exact path="/Cart" element={<Cart/>} />
         </Routes>
       </div>
     </BrowserRouter>
