@@ -47,13 +47,16 @@ const Navbar = () => {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
+        <div>
         <Link to="/Cart">
-          <button><FaCartArrowDown /></button>
+          <button style={{marginRight:"10px"}}><FaCartArrowDown /></button>
         </Link>
         
         <Link to="/login">
           <button>Login</button>
         </Link>
+        </div>
+     
       </nav>
     </div>
   );

@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/menu" element={<Menu/>} />
           <Route exact path="/location"  element={<Location/>} />
           <Route exact path="/about"  element={<About/>} />
-          <Route exact path="/contact" element={<Contact text="VIA EMAIL" icon={<IoMail />}/>} />
+          <Route exact path="/contact" element={<Contact text="VIA EMAIL FORM" icon={<IoMail style={{ marginLeft: '15px',marginTop:"0px",  fontSize: "20px" }}  />}/>} />
           <Route exact path="/Cart" element={<Cart/>} />
         </Routes>
       </div>

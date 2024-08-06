@@ -1,5 +1,7 @@
 import React from 'react';
 import f4 from '../imgs/puma.png'
+import { Link } from 'react-router-dom';
+import Menu from './Menu';
 const Herosection = () => {
     const containerStyle = {
         display: 'flex',
@@ -73,7 +75,7 @@ const Herosection = () => {
                         We are here to help you out in the best way to fit the righteous shoes that deserve your feet. The best and Best of the Quality
                     </h3>
                     <div style={buttonContainerStyle}>
-                        <button style={buttonStyleS}>Shop Now</button>
+                        <Link to="/Menu"><button style={buttonStyleS}>Shop Now</button></Link>
                         <button style={buttonStyleC}>Category</button>
                     </div>
                 </div>

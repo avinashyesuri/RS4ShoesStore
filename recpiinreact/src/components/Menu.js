@@ -31,14 +31,20 @@ const Menu = () => {
   {
     shoep.map((prod)=>(
       <div key ={prod.id} >
-            <div>
-                 <img src='https://www.shutterstock.com/image-photo/nakhon-pathom-thailand-december-30-260nw-1106372834.jpg'/>
-                 <div>
+            <div style={{margin:"20px", padding:'10px',backgroundColor:"orange", height:"150px", width:"150px"}}>
+                 <img src='https://www.shutterstock.com/image-photo/nakhon-pathom-thailand-december-30-260nw-1106372834.jpg' style={{height:"80px", width:"150px"}}/>
+                 <div style={{ padding:'10px'}}>
                       <h1>{prod.ShoeName}</h1>
-                      <p>{prod.Color}</p>
-                      <p>{prod.Origin}</p>
-                      <p>{prod.Price}</p>
-                      <FaHeart  style={{fontSize:"25px"}}/>
+                      <div style={{margin:"5px", display:"flex", flexDirection:"row",justifyContent:"space-between"}}>
+                        <p>{prod.Color}</p>
+                        {/* <p>{prod.Origin}</p> */}
+                        <div >
+                        <p>$ {prod.Price}</p>
+                        <FaHeart  style={{fontSize:"25px"}}/>
+                        </div>
+                      </div>
+                   
+                  
                  </div>
             </div>
       </div>
