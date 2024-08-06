@@ -19,3 +19,5 @@ Axios or Fetch API (Planned): For making HTTP requests to the fake recipe API.
 
 
 ![image](https://github.com/user-attachments/assets/7db91b77-9294-4191-9638-b5d422f155c4)
+![image](https://github.com/user-attachments/assets/df5c2452-db6e-452e-9f53-225ad711572a)
+
