@@ -14,3 +14,8 @@ React: The core library for building the user interface.
 React Router DOM: For handling routing and navigation between different sections of the application.
 CSS: For styling the application and ensuring a visually appealing interface.
 Axios or Fetch API (Planned): For making HTTP requests to the fake recipe API.
+
+
+
+
+![image](https://github.com/user-attachments/assets/7db91b77-9294-4191-9638-b5d422f155c4)
