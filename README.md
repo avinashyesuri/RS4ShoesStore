@@ -33,6 +33,10 @@ Home page!
 
 ![image](https://github.com/user-attachments/assets/7db91b77-9294-4191-9638-b5d422f155c4)
 
+Menu Page!
+![image](https://github.com/user-attachments/assets/da9f3533-cafb-4921-8ed4-97f62df7d8ef)
+
+
 Contacts Page!
 
 ![image](https://github.com/user-attachments/assets/df5c2452-db6e-452e-9f53-225ad711572a)
