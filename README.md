@@ -28,7 +28,6 @@ This project is a Shoe Website Application built using React. It features a land
    ```bash
    git clone https://github.com/your-username/shoe-website.git
 
-
 Home page!
 
 ![image](https://github.com/user-attachments/assets/7db91b77-9294-4191-9638-b5d422f155c4)
