@@ -41,17 +41,17 @@ const Contact = ({ icon, text }) => {
         console.log("f");
     };
     const [name, setName] = useState("Enter Name");
-    const [password, setpassword] = useState("Enter password");
+    const [email, setemail] = useState("Enter email");
     const [textarea, settextarea] = useState("Enter textarea");
     const onsubmitting = (event) => {
         event.preventDefault();
 
         setName(event.target[0].value);
-        setpassword(event.target[1].value);
+        setemail(event.target[1].value);
         settextarea(event.target[2].value);
 
         console.log("name", event.target[0].value);
-        console.log("password", event.target[1].value);
+        console.log("email", event.target[1].value);
         console.log("text", event.target[2].value);
     };
 
@@ -81,8 +81,8 @@ const Contact = ({ icon, text }) => {
                                     <input style={inputStyle} type="text" placeholder='Enter your name' name="name" />
                                 </div>
                                 <div>
-                                    <label style={{ padding: '5px', position: 'absolute', top: '40px', left: "5px", background: 'white' }} htmlFor="password">Password</label>
-                                    <input style={inputStyle} type="password" placeholder='Enter your password' name="password" />
+                                    <label style={{ padding: '5px', position: 'absolute', top: '40px', left: "5px", background: 'white' }} htmlFor="email">email</label>
+                                    <input style={inputStyle} type="email" placeholder='Enter your email' name="email" />
                                 </div>
                                 <div>
                                     <label style={{ padding: '5px', position: 'absolute', top: '94px', left: "5px", background: 'white' }} htmlFor="area">TextArea</label>
