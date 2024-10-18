@@ -32,7 +32,6 @@ Home page!
 
 ![image](https://github.com/user-attachments/assets/7db91b77-9294-4191-9638-b5d422f155c4)
 
-
 Menu Page!
 
 ![image](https://github.com/user-attachments/assets/da9f3533-cafb-4921-8ed4-97f62df7d8ef)
