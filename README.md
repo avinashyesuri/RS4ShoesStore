@@ -36,9 +36,6 @@ Menu Page!
 
 ![image](https://github.com/user-attachments/assets/da9f3533-cafb-4921-8ed4-97f62df7d8ef)
 
-
-
-
 Contacts Page!
 
 ![image](https://github.com/user-attachments/assets/df5c2452-db6e-452e-9f53-225ad711572a)
