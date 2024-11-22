@@ -22,9 +22,6 @@ This project is a Shoe Website Application built using React. It features a land
 - **CSS**: For styling the application and ensuring a visually appealing interface.
 - **Axios or Fetch API (Planned)**: For making HTTP requests to fetch product data.
 
-
-
-
 ## Installation
 
 1. Clone the repository:
