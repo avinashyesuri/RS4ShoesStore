@@ -8,7 +8,6 @@ This project is a Shoe Website Application built using React. It features a land
 
 ## Features
 
-
 - **Dynamic Navigation**: Navigation links to Home, Contact, About, Shop, and Login sections.
 - **Responsive Design**: The application is designed to be responsive, ensuring it works well on various devices, including desktops, tablets, and mobile devices.
 - **Product Display**: Displays a variety of shoes with details such as name, price, and image.
