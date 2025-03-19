@@ -1,9 +1,6 @@
 # RS4shoestore app
-
 # Shoe Website Application
-
 ## Overview
-
 This project is a Shoe Website Application built using React. It features a landing page with navigation links to various sections: Home, Contact, About, Shop, and Login. Each section is implemented as a separate component, and navigation is managed using React Router DOM. 
 
 ## Features
