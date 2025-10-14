@@ -16,7 +16,6 @@ This project is a Shoe Website Application built using React. It features a land
 - **React Router DOM**: For handling routing and navigation between different sections of the application.
 - **CSS**: For styling the application and ensuring a visually appealing interface.
 - **Axios or Fetch API (Planned)**: For making HTTP requests to fetch product data.
-
 ## Installation
 
 1. Clone the repository:
