@@ -9,6 +9,8 @@ This project is a Shoe Website Application built using React. It features a land
 - **Shopping Cart (Planned)**: Allows users to add shoes to a shopping cart and proceed to checkout.
 - **Payment Integration (Planned)**: Integrates with payment gateways for processing transactions.
 - **Chat Feature (Planned)**: Provides a chat feature for customer support and inquiries.
+
+
   
 ## Technologies Used
 
