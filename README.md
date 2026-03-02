@@ -10,7 +10,6 @@ This project is a Shoe Website Application built using React. It features a land
 - **Payment Integration (Planned)**: Integrates with payment gateways for processing transactions.
 - **Chat Feature (Planned)**: Provides a chat feature for customer support and inquiries.
 ## Technologies Used
-
 - **React**: The core library for building the user interface.
 - **React Router DOM**: For handling routing and navigation between different sections of the application.
 - **CSS**: For styling the application and ensuring a visually appealing interface.
