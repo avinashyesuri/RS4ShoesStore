@@ -2,7 +2,6 @@
 # Shoe Website Application
 ## Overview
 This project is a Shoe Website Application built using React. It features a landing page with navigation links to various sections: Home, Contact, About, Shop, and Login. Each section is implemented as a separate component, and navigation is managed using React Router DOM. 
-
 ## Features
 - **Dynamic Navigation**: Navigation links to Home, Contact, About, Shop, and Login sections.
 - **Responsive Design**: The application is designed to be responsive, ensuring it works well on various devices, including desktops, tablets, and mobile devices.
